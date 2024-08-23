@@ -6,6 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // base: '/Repository 的名稱/'
+  base: '/vuecamp/',
   plugins: [
     vue(),
     vueDevTools(),
